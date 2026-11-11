@@ -1,0 +1,243 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.background {
+    width: 100%;
+    position: relative;
+}
+
+.background img {
+    display: block;
+    width: 1500px;
+    height: auto;
+    
+}
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.slogan{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.slogan, 
+.content span, 
+.content .buttons {
+    position: relative;
+    z-index: 5; 
+}
+#quotations-1{
+    position:relative;
+	height:100px;
+	top:-55px;
+	left:20px;
+	z-index:10;
+    transform: scaleY(-1) rotate(10deg);
+}
+#quotations-2{
+    position:relative;
+	height:100px;
+	top:80px;
+	left:-10px;
+	z-index:10;
+    transform: scaleX(-1) rotate(-10deg);
+}
+#silhouette-1{
+    position:relative;
+	height:550px;
+    left:-500px;
+    top:-50px;
+    z-index:19;
+}
+#silhouette-2{
+    position:relative;
+	height:550px;
+	top:-620px;
+	left:500px;
+    z-index:19;
+    transform: scaleX(-1);
+}
+.flower-banner-img {
+    position: relative; 
+    width: 100%;
+    height: auto;
+    z-index: 1; 
+    top: -900px;
+    pointer-events: none; 
+    margin-bottom: -1400px;
+}
+
+
+.foreground {
+    position: absolute;
+    inset: 0;
+    z-index: 20;
+    display: grid;
+    place-items: center;
+    box-sizing: border-box;
+    background-color: #f2b0da;
+    overflow: hidden;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    overflow: hidden; 
+    width: 100vw;
+    height: 100vh;
+}
+
+#slogan {
+    color: black;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    width: 600px;
+}
+
+.content span {
+    width: 80%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.content .buttons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+button {
+    min-width: 15em;
+    padding: 1em 4em;
+    cursor: pointer;
+    font-size: large;
+    background-color: #844e8e;
+    border: none;
+    color: white;
+}
+
+#currency-input {
+    width: 80%;
+    max-width: 400px;
+    padding: 0.75em 1em;
+    font-size: 28px;
+    text-align: left;
+    border: 2px solid rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.85);
+    box-sizing: border-box;
+}
+
+#currency-input:focus {
+    outline: none;
+    border-color: rgba(0, 0, 0, 0.6);
+}
+.section{
+    display: flex;
+
+}
+.section .slogan{
+    margin-top: 20px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+.left{
+    flex-direction: column;
+    width: 800px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    padding: 10px;
+}
+.right .header{
+    text-align: center;
+}
+.card-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card{
+    width: 80%;
+    height: 175px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #af67bc;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.card span{
+    width: 80%;
+}
+#first{
+    height: 400px;
+    width: 100%;
+}
+#second{
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.about-us{
+    width: 600px;
+    text-wrap: wrap;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.header{
+    font-size: 60px;
+    font-style: italic;
+    font-weight: bold;
+    width: 600px;
+}
+.about-us span{
+    font-size: 25px;
+    margin-left: 20px;
+}
+#third{
+    height: 500px;
+    background-color: black;
+    border: 1px solid black;
+}
+#fourth{
+    height: 500px;
+    border: 1px solid black;
+}
+
+.information{
+
+}
