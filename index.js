@@ -20,9 +20,7 @@ function initButtons(){
                 <div class="left">
                     <div class="section" id="first">
                         <div class="slogan">
-                            <img id="quotations-1" src="right.png">
                             <div id="slogan">Rooted in education, growing for tomorrow.</div>
-                            <img id="quotations-2" src="right.png">
                         </div>
                     </div>
                     <div class="section" id="second">
