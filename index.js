@@ -49,11 +49,6 @@ function initButtons(){
                             <div>—</div>
                             <span>Monique</span>
                         </div>
-                        <div class="card">
-                            <span style="border: 1px solid black;">"I am Renee. I like this place. I am a city native and, this place is great!"</span>
-                            <div>—</div>
-                            <span>Renee</span>
-                        </div>
                     </div>
                 </div>
             </div>
