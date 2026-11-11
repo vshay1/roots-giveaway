@@ -209,14 +209,14 @@ button {
     flex-direction: column;
 }
 .about-us{
-    width: 600px;
+    width: 700px;
     text-wrap: wrap;
     padding: 20px;
     display: flex;
     flex-direction: column;
     text-align: left;
     margin-top: 20px;
-    margin-left: 120px;
+    margin-left: 60px;
 }
 .header{
     font-size: 60px;
@@ -227,6 +227,7 @@ button {
 .about-us span{
     font-size: 25px;
     margin-left: 20px;
+	width: 100%;
 }
 #third{
     height: 500px;
